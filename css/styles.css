@@ -1,9 +1,13 @@
 #bannerImage{
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9)),
+    background-image: linear-gradient(to top, rgba(0, 4, 61, 0.6), rgba(255, 117, 117, 0.5)),
     url("../images/protland_peaceful_protest-19-full.png");
-    height:100vh;
+    background-repeat:no-repeat, no-repeat;
+    background-size: cover, 100%;
+    height:fit-content;
+    background-attachment: fixed;
 }
 
 h1{
+    color: white;
     font-weight: 900 !important;
 }
